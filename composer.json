@@ -1,0 +1,22 @@
+{
+    "name": "anantanandgupta/phpflow",
+    "description": "a simple workflow library for creating workflows in php",
+    "keywords": ["workflow", "rules", "engine"],
+    "homepage": "https://github.com/anantanandgupta/phpflow",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0"
+    }
+    "autoload": {
+        "psr-0": {
+            "PHPFlow": "src"
+            }
+    },
+    "authors": [
+        {
+            "name": "Anant Anand Gupta",
+            "email": "contact@anantanandgupta.net",
+            "homepage": "http://www.anantanandgupta.net/"
+        }
+    ]
+}
