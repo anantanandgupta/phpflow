@@ -1,16 +1,23 @@
 {
     "name": "anantanandgupta/phpflow",
     "description": "a simple workflow library for creating workflows in php",
-    "keywords": ["workflow", "rules", "engine"],
+    "keywords": [
+        "workflow",
+        "rules",
+        "engine"
+    ],
     "homepage": "https://github.com/anantanandgupta/phpflow",
     "license": "MIT",
     "require": {
         "php": ">=5.5.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.x-dev"
+    },
     "autoload": {
         "psr-0": {
             "PHPFlow": "src"
-            }
+        }
     },
     "authors": [
         {
