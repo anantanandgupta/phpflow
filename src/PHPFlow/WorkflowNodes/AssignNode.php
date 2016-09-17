@@ -33,10 +33,11 @@ class AssignNode extends WorkflowNode
 
     protected function execute()
     {
-        $this->context["result"] = "hello";
-//        if(isset($this->action)) {
-//            ($this->action)();
-//        }
+        //$this->context["result"] = "hello";
+        if(isset($this->action)) {
+            $func = $this->action;
+            $func($this->context);
+        }
 
 //        if (is_callable($this->assignFrom))
 //        {

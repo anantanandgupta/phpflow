@@ -59,10 +59,7 @@ abstract class WorkflowNode
         }
     }
 
-    /**
-     * @param array $context
-     */
-    public function setContext(&$context)
+    public function setContext(Context &$context)
     {
         $this->context = &$context;
     }

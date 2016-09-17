@@ -11,7 +11,7 @@ namespace PHPFlow;
 class Workflow
 {
     private $_nodes = [];
-    private $_context = [];
+    private $_context;
 
     /**
      * Workflow constructor.
@@ -20,6 +20,7 @@ class Workflow
      */
     public function __construct(array $_message)
     {
+        $this->_context = new Context();
         $this->_context["message"] = $_message;
         $this->_context["result"] = [];
     }
